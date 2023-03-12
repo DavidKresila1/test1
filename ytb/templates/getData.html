@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>YouTube to MP3</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/home.css') }}">
+
+</head>
+<body>
+    <h1>Usmevom k hudbičke.</h1>
+    <form method="POST" action="/download">
+        <input type="text" name="url" placeholder="Enter YouTube video URL">
+        <button type="submit">Stále sa usmievam</button>
+    </form>
+</body>
+</html>

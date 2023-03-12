@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Usmej sa</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/home.css') }}">
+
+</head>
+<body>
+    <h1>YouTube MP3 Downloader</h1>
+    <form method="POST" action="{{ url_for('home') }}">
+        <input type="text" name="url" placeholder="Enter YouTube video URL">
+        <button type="submit">Check</button>
+    </form>
+</body>
+</html>
